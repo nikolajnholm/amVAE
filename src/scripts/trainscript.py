@@ -1,4 +1,5 @@
 import sys
+sys.path.append("..")
 import numpy as np
 import pickle as pkl
 import pandas as pd
@@ -6,7 +7,7 @@ import pandas as pd
 import torch
 from torch.utils.data import DataLoader
 cuda = torch.cuda.is_available()
-import vae as vae
+import model.vae as vae
 from sklearn.preprocessing import MinMaxScaler
 torch.set_printoptions(sci_mode = False)
 from torch.utils.tensorboard import SummaryWriter

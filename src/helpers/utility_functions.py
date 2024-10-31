@@ -1,7 +1,9 @@
+import sys
+sys.path.append("..")
 import numpy as np
 import torch
 from torch.utils.data import DataLoader
-import vae as vae
+import model.vae as vae
 from sklearn.preprocessing import MinMaxScaler
 torch.set_printoptions(sci_mode = False)
 

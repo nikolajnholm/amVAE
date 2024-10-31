@@ -1,13 +1,13 @@
 import sys
-sys.path.append(r'E:\workdata\706809\Nikolaj\A2I2_project')
+sys.path.append("..")
 import numpy as np
 import pandas as pd
 import torch
 
 cuda = False
 
-import utility_functions as uf
-import cluster_funcs as cf
+import helpers.utility_functions as uf
+import helpers.cluster_funcs as cf
 
 torch.set_printoptions(sci_mode = False)
 
