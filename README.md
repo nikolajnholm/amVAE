@@ -1,4 +1,4 @@
 # amVAE
 Code for the paper amVAE: Age-aware Multimorbidity clustering using Variational AutoEncoders
 
-![amVAE](https://github.com/user-attachments/assets/06506135-7f69-468c-9544-7b9254e1c2c1)
+![image](https://github.com/user-attachments/assets/d1777674-5a8b-43a8-848e-76d9687d35ff)
